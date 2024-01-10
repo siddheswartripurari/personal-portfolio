@@ -90,10 +90,52 @@ h1.profile {
   .grid-container{
     grid-template-columns: 1fr;
     height: 1200px;
+    text-align: center;
   }
 
   .profile-container{
     height: 1400px;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+
+}
+
+@media(max-width: 500px){
+  .grid-container{
+    grid-template-columns: 300fr;
+    height: 1300px;
+    text-align: center;
+  }
+
+  .profile-container{
+    height: 1400px;
+  }
+
+  .degree{
+    margin-bottom: 30px;
+  }
+
+  .place, .tech-interest, .programming-languages, .libraries-frameworks, .university, .graduation {
+    padding: 10px;
+    font-size: 13px;
+  }
+  
+  .location, .interests, .languages, .libraries-frameworks, .education, .degree {
+    text-align: center;
+    width: 100%;
+  }
+
+  .badge {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 3px;
+    cursor: pointer;
   }
 
 
