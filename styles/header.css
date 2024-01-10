@@ -109,6 +109,8 @@ h1.profile {
     grid-template-columns: 300fr;
     height: 1300px;
     text-align: center;
+    padding: 0px;
+    row-gap: 5px;
   }
 
   .profile-container{
